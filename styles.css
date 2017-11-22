@@ -24,7 +24,7 @@ header {
 header a {
   text-decoration: none;
   color: white;
-  margin: 18px;
+	margin: 18px;
 }
 .contactame {
   border-radius: 10px;
@@ -138,7 +138,7 @@ header a {
     margin: 0px 230px 0px 230px;
 }
 .sellertime{
-	color: #FBCD00;
+	color: #FBCD00
 }
 footer{
 	text-align: center;

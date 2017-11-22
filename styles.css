@@ -1,0 +1,200 @@
+body {
+  font-family: "Allerta", sans-serif;
+	margin: 0;
+}
+.headerBackground {
+  background-image: url("images/hola.png");
+	background-size: cover;
+	box-shadow: 0px 3px 15px #B8C4C6;
+}
+header {
+	display: flex;
+	justify-content: center;
+  font-size: 24px;
+}
+.icon {
+  margin-right: 30%;
+}
+.menu{
+	margin-top: 1.5%;
+}
+.francisco {
+  margin-right: 30%;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  margin: 18px;
+}
+.contactame {
+  border-radius: 10px;
+  border: none;
+  padding: 12px;
+  background: black;
+  cursor: pointer;
+}
+.contactamefont {
+  color: #fbcd00;
+  font-size: 16px;
+}
+.comilla {
+  margin-left: 50%;
+  margin-top: 9%;
+  margin-bottom: 1%;
+}
+.cvtc {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+.learnvideo {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.videoicon {
+  margin-top: 2%;
+  margin-bottom: 13%;
+  margin-left: 49%;
+}
+.section1 {
+  padding-bottom: 10%;
+}
+.click {
+  margin-top: 3%;
+  font-size: 40px;
+  text-align: center;
+}
+.section2 {
+  text-align: center;
+  background: #f9f9f9;
+	padding-bottom: 5%;
+	box-shadow: 0px 2px 10px #B8C4C6;
+}
+.juxtapose{
+	margin-top: 3%;
+	border: 4px solid #FBCD00;
+	border-radius: 20px;
+	padding: 20px 50px 0px 50px;
+
+}
+.p1 {
+  display: flex;
+  font-size: 40px;
+  justify-content: flex-end;
+  margin-right: 20%;
+  margin-top: 8%;
+  color: #00022d;
+}
+.bars {
+  display: flex;
+  order: 1;
+  margin-left: 13%;
+  margin-top: -5%;
+  margin-bottom: 7%;
+}
+.linneg {
+  color: #00022d;
+  font-size: 40px;
+  text-align: center;
+}
+.seller{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  margin: 100px;
+  text-align: center;
+  font-size: 16px;
+}
+.seller1{
+    margin: 40px;
+}
+.seller2{
+    margin: 40px;
+}
+.seller3{
+    margin: 40px;
+}
+.seller4{
+    margin: 40px;
+}
+.testimonials{
+    text-align: center;
+    font-size: 30px;
+}
+.inspiration{
+    text-align: center;
+    font-size: 40px;
+    background-color: #00012A;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    padding-top: 3%;
+		padding-bottom: 3%;
+		box-shadow: 0px 5px 30px #B8C4C6;
+}
+.inspiration p{
+    color: white;
+    margin: 0px 230px 0px 230px;
+}
+.sellertime{
+	color: #FBCD00;
+}
+footer{
+	text-align: center;
+	background: rgb(255, 255, 255);
+	padding-bottom: 5%;
+}
+.contact h3{
+		display: flex;
+		justify-content: center;
+		color: #00082C;
+		font-size: 50px;
+}
+.contact_us{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+.cname{
+	font-size: 25px;
+	margin: 5px;
+}
+.cmail{
+	font-size: 25px;
+	margin: 22px;
+}
+.coment{
+	font-size: 18px;
+}
+.textarea1{
+	width: 30%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	border: 1px solid #00082C;
+}
+.contact_us input{
+	border: 1px solid #00082C;
+	width: 400px;
+	margin-bottom: 20px;
+	font-weight: 400;
+	font-size: 20px;
+	cursor: text;
+	border-radius: 10px;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+.btn{
+	margin-top: 20px;
+	width: 20%;
+	padding: 10px;
+	color: #00082C;
+	font-size: 20px;
+	margin: 0 auto;
+	border: 0;
+	background: #FBCD00;
+	border-radius: 12px;
+}
+

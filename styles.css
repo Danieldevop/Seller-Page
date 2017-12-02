@@ -9,16 +9,19 @@ body {
 }
 header {
 	display: flex;
-	justify-content: center;
+	flex-wrap: wrap;
   font-size: 24px;
 }
 .icon {
-  margin-right: 30%;
+	margin-left: 3%;
+	margin-right: 30%;
 }
 .menu{
 	margin-top: 1.5%;
 }
 .francisco {
+	display: flex;
+	flex-wrap: wrap;
   margin-right: 30%;
 }
 header a {

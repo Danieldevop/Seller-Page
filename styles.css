@@ -1,5 +1,5 @@
 body {
-  font-family: "Allerta", sans-serif;
+  font-family: 'Lato', sans-serif; 
 	margin: 0;
 }
 /* Inicio Header */
@@ -61,7 +61,6 @@ header a {
   color: white;
 }
 .learnvideo {
-  font-family: sans-serif;
   text-align: center;
   font-size: 40px;
   color: white;
@@ -70,6 +69,12 @@ header a {
   margin: 0 auto;
   margin-top: 4%;
   display: block;
+}
+.grow:hover
+{
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
 }
 /* INTRO FIN*/
 
@@ -95,8 +100,8 @@ header a {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  border-top: 4px solid #1D47A3;
-  border-bottom: 4px solid #1D47A3;
+  /* border-top: 4px solid #1D47A3; */
+  /* border-bottom: 4px solid #1D47A3; */
 	border-radius: 3px;
 	padding: 20px 50px 15px 50px;
 
@@ -108,15 +113,17 @@ header a {
   display: block;
   text-align: center;
   font-size: 40px;
-  color: #00022d;
+  color: #003987;
 }
 .bars {
   display: block;
   margin: 0 auto;
   margin-bottom: 5%;
 }
+
+/* LINEAS DE NEGOCIO */
 .linneg {
-  color: #00022d;
+  color: #003987;
   font-size: 40px;
   text-align: center;
 }
@@ -140,19 +147,36 @@ header a {
 .seller4{
     margin: 40px;
 }
+.seller h2 {
+  color: #003987;
+}
+/* LINEAS DE NEGOCIO */
+
+/* TESTIMONIALS */
 .testimonials{
     text-align: center;
-    font-size: 30px;
 }
+.testimonials p {
+  font-size: 30px;
+  color: #003987;
+}
+.imgtes {
+  border: 5px solid #2C9CEF;
+  border-radius: 15px;
+  box-shadow: 0px 5px 30px #B8C4C6;
+}
+/* TESTIMONIALS */
+
+/* INSPIRATION SECTION */
 .inspiration{
     text-align: center;
-    font-size: 40px;
-    background-color: #00012A;
+    font-size: 37px;
+    background: linear-gradient(to left, rgb(27, 29, 39), rgb(0, 28, 61));
     margin-top: 5%;
     margin-bottom: 7%;
     padding-top: 3%;
 		padding-bottom: 3%;
-		box-shadow: 0px 5px 30px #B8C4C6;
+		box-shadow: 0px 1px 30px #B8C4C6;
 }
 .inspiration p{
     color: white;
@@ -161,6 +185,9 @@ header a {
 .sellertime{
 	color: #FBCD00
 }
+/* INSPIRATION SECTION */
+
+/* CONTACTME */
 footer{
 	text-align: center;
 	background: rgb(255, 255, 255);
@@ -209,7 +236,7 @@ footer{
 }
 .btn{
 	margin-top: 20px;
-	width: 20%;
+	width: 25%;
 	padding: 10px;
 	color: #00082C;
 	font-size: 20px;
@@ -218,4 +245,4 @@ footer{
 	background: #FBCD00;
 	border-radius: 12px;
 }
-
+/* CONTACTME */

@@ -1,0 +1,102 @@
+body {
+    font-family: 'Open Sans', sans-serif; 
+    margin: 0;
+  }
+  /* Inicio Header */
+  header {
+    background: rgba(0, 0, 0, 1);
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    font-size: 22px;
+    /* padding: 0.5%; */
+  }
+  .head1 {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .icon img {
+    vertical-align: middle;
+    display: inline-block;
+      margin-right: 19%;
+  }
+  header a {
+    text-decoration: none;
+    color: white;
+      margin: 16px;
+  }
+  .contactame {
+    border-radius: 13px;
+    border: none;
+    padding: 12px;
+    background:white;
+    cursor: pointer;
+    background: linear-gradient(to left, #206eec, #2C9CEF);
+  }
+  .contactamefont {
+    color: #fdfdfd;
+    font-size: 16px;
+  }
+  /* Fin Header */
+
+  .section {
+    text-align: center;
+  }
+  .section h1{
+    color: #003d9e;
+    font-size: 50px;
+  }
+  /* facebook */
+  .facebook {
+    background: linear-gradient(to left, #206eec, #2C9CEF);
+    margin: 0 430px;
+    padding-bottom: 1%;
+    border-radius: 30px;
+  }
+  .section a {
+      text-decoration: none;
+      color: #e9f2ff;
+      font-size: 30px;
+  }
+  .section h2 {
+    color: #ffffff;
+    font-size: 40px;
+  }
+  .li, .l2 {
+    vertical-align: middle;
+    margin: 10px;
+  }
+
+/* facebook */
+
+/* instagram */
+.instagram {
+    background: linear-gradient(to left, #d8207c, rgb(44, 106, 239));
+    margin: 0 430px;
+    padding-bottom: 1%;
+    border-radius: 30px;
+  }
+.instagram a, img{
+    vertical-align: middle;
+    margin-right: 0.8%;
+}
+
+/* instagram */
+
+/* whatsapp */
+.whatsapp a, img{
+    vertical-align: middle;
+    margin-right: 0.5%;
+}
+.whatsapp {
+    background: linear-gradient(to left, #1ccce4, rgb(16, 197, 91));
+    margin: 0 430px;
+    padding-bottom: 1%;
+    border-radius: 30px;
+  }
+
+
+/* whatsapp */

@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Francisco Cardona: conviértete en un vendedor de tiempo completo</title>
-	<link href="https://fonts.googleapis.com/css?family=Cabin|Inconsolata|Nunito|Nunito+Sans|Pacifico|Quicksand|Rubik|VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <style>
+
+    </style>
 </head>
 <body>
     <div class="headerBackground">
@@ -17,8 +20,8 @@
                 <a href="index.html">Inicio</a>
                 <a href="">Sobre mi</a>
                 <!-- <a href="">Cursos Libres</a> -->
-                <a href="">Tienda</a>
-                <a href="">
+                <a href="">Cursos</a>
+                <a href="contact.html">
                     <button class="contactame" onclick="">
                         <span class="contactamefont"><strong>CONTÁCTAME</strong></span> 
                     </button>
@@ -29,7 +32,7 @@
         <h1 class="cvtc">Conviértete en un vendedor de tiempo completo</h1>
 		<h2 class="learnvideo">En este vídeo te enseño cómo lograrlo...</h2>
 		<a id="modal-trigger" class="modalbtn">
-			<img class="videoicon" src="images/videoicon.png" alt="Video" height="90">
+			<img class="videoicon grow" src="images/videoicon.png" alt="Video" height="90">
 		</a>
     </div>
     <!-- <section class="section1">
@@ -95,7 +98,8 @@
                     </div>
         </div>
         <div class="testimonials">
-            testimonios
+            <p><stong>Testimonios</stong></p>
+            <img class="imgtes" src="images/testimony.png" alt="testimonio">
         </div>
     </section>
     <section class="inspiration">
@@ -110,21 +114,26 @@
     </section>
     <footer>
             <div class="contact">
-                <h3>Que quieres contarme</h3>
+                <h3>Suscríbete a mi Newsletter</h3>
                 <form class="contact_us">
                     <label for="name">
-					<span class="cname">Nombre</span>
-					<br>
-                    <input type="text" required placeholder="Nombre Apellido" id="name">
+					    <span class="cname">Nombre</span>
+					    <br>
+                        <input type="text" required placeholder="Nombre" id="name">
+                    </label>
+                    <label for="surname">
+                        <span class="cname">Apellido</span>
+                        <br>
+                        <input type="text" required placeholder="Apellido" id="surname">
                     </label>
                     <label for="mail">
-					<span class="cmail">Email</span>
-					<br>
-                    <input type="email" required placeholder="mail@example.com" id="mail">
+					    <span class="cmail">Email</span>
+					    <br>
+                        <input type="email" required placeholder="mail@example.com" id="mail">
 					</label>
-					<label class="coment"for="comentarios">Comentarios</label>
-					<textarea class="textarea1" name="cometarios" id="comentarios" cols="30" rows="7"></textarea>
-                    <button type="submit" class="btn"><strong>Contáctame</strong></button>
+					<!-- <label class="coment"for="comentarios">Comentarios</label>
+					    <textarea class="textarea1" name="cometarios" id="comentarios" cols="30" rows="7"></textarea> -->
+                    <button type="submit" class="btn"><strong>Suscribirme</strong></button>
                 </form>
             </div>
 	</footer>

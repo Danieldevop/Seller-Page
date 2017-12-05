@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato', sans-serif; 
+  font-family: sans-serif;
 	margin: 0;
 }
 /* Inicio Header */
@@ -114,7 +114,7 @@ transform: scale(1.1);
 .p1 {
   display: block;
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   color: #151618;
 }
 .bars {
@@ -125,32 +125,40 @@ transform: scale(1.1);
 
 /* LINEAS DE NEGOCIO */
 .linneg {
-  color: #003987;
-  font-size: 40px;
+  color: #1D232C;
+  font-size: 50px;
   text-align: center;
 }
 .seller{
-  display: flex;
-  align-items: baseline;
-  justify-content: space-around;
-  margin: 100px;
-  text-align: center;
-  font-size: 16px;
+  font-size: 22px;
 }
 .seller1{
-    margin: 40px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to left, rgb(36, 26, 27), rgb(2, 26, 22));
+}
+.c1, .c3, .c5{
+  text-align: center;
+  margin: 0 100px;
+  margin-top: 1%;
 }
 .seller2{
-    margin: 40px;
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  background: white;
+}.c3 {
+  color: black;
 }
 .seller3{
-    margin: 40px;
-}
-.seller4{
-    margin: 40px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to left, rgb(36, 26, 27), rgb(2, 26, 22));
 }
 .seller h2 {
-  color: #003987;
+  color: #D79B33;
 }
 /* LINEAS DE NEGOCIO */
 
@@ -290,3 +298,4 @@ footer{
   animation-name: fadeInUp;
   -webkit-animation-name: fadeInUp;
 }
+/* ANIMATIONS */

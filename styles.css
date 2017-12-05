@@ -8,7 +8,7 @@ body {
   background-image: url("images/hola.png");
 	background-size: cover;
   box-shadow: 0px 3px 15px #B8C4C6;
-  padding-bottom: 13%;
+  padding-bottom: 20%;
   padding-top: 10%;
 }
 header {
@@ -79,15 +79,16 @@ transform: scale(1.1);
 /* INTRO FIN*/
 
 /* Inicio Section1 */
-.section1 {
+/* .section1 {
   padding-bottom: 10%;
 }
 .click {
   margin-top: 3%;
   font-size: 40px;
   text-align: center;
-}
+} */
 /* Fin Section1 */
+
 
 /* Inicio Section2 */
 .section2 {
@@ -96,16 +97,17 @@ transform: scale(1.1);
 	/* padding-bottom: 5%; */
 	/* box-shadow: 0px 2px 10px #B8C4C6; */
 }
-.juxtapose{
+/* .juxtapose{
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  /* border-top: 4px solid #1D47A3; */
-  /* border-bottom: 4px solid #1D47A3; */
+  border-top: 4px solid #1D47A3; 
+  border-bottom: 4px solid #1D47A3; 
 	border-radius: 3px;
 	padding: 20px 50px 15px 50px;
 
-}
+} */
+
 /* Fin Section2 */
 
 /* Inicio Section3 */
@@ -113,7 +115,7 @@ transform: scale(1.1);
   display: block;
   text-align: center;
   font-size: 40px;
-  color: #003987;
+  color: #151618;
 }
 .bars {
   display: block;
@@ -246,3 +248,45 @@ footer{
 	border-radius: 12px;
 }
 /* CONTACTME */
+
+
+/* ANIMATIONS */
+
+@keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+  opacity: 0
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}

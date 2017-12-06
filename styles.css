@@ -8,8 +8,8 @@ body {
   background-image: url("images/hola.png");
 	background-size: cover;
   box-shadow: 0px 3px 15px #B8C4C6;
-  padding-bottom: 20%;
-  padding-top: 10%;
+  padding-bottom: 13%;
+  padding-top: 9%;
 }
 header {
   background: rgba(0, 0, 0, 0.6);
@@ -57,7 +57,9 @@ header a {
 }
 .cvtc {
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
+  margin-right: 8%;
+  margin-left: 8%;
   color: white;
 }
 .learnvideo {
@@ -125,40 +127,60 @@ transform: scale(1.1);
 
 /* LINEAS DE NEGOCIO */
 .linneg {
-  color: #1D232C;
-  font-size: 50px;
+  color: rgb(34, 35, 38);
+  font-size: 40px;
   text-align: center;
+  margin: 0;
+  padding: 2%;
+  background: white;
 }
 .seller{
-  font-size: 22px;
+  font-size: 23px;
 }
 .seller1{
   color: white;
   display: flex;
-  flex-direction: row;
-  background: linear-gradient(to left, rgb(36, 26, 27), rgb(2, 26, 22));
+  align-items: center;
+  flex-direction: column;
+  margin: 0 4%;
+  border-radius: 3px;
+  background: linear-gradient(to left, rgb(2, 136, 170) ,#1E48A4);  
 }
 .c1, .c3, .c5{
   text-align: center;
-  margin: 0 100px;
-  margin-top: 1%;
+  margin: 0 350px;
+  margin-top: 0.5%;
+  margin-bottom: 3%;
 }
 .seller2{
   color: white;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  align-items: center;
   background: white;
-}.c3 {
-  color: black;
+}
+.c3 {
+  color: rgb(34, 35, 38);
 }
 .seller3{
   color: white;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4%;
+  border-radius: 3px;
   background: linear-gradient(to left, rgb(36, 26, 27), rgb(2, 26, 22));
 }
-.seller h2 {
-  color: #D79B33;
+.c3 h2 {
+  color: rgb(240, 183, 51);
+}
+.c5 h2 {
+  color: #FF3395;
+  font-size: 40px;
+}
+.seller img {
+  margin: 30px 0 5px 0;
+  border-radius: 5px;
 }
 /* LINEAS DE NEGOCIO */
 
@@ -167,7 +189,7 @@ transform: scale(1.1);
     text-align: center;
 }
 .testimonials p {
-  font-size: 30px;
+  font-size: 60px;
   color: #003987;
 }
 .imgtes {
@@ -181,7 +203,7 @@ transform: scale(1.1);
 .inspiration{
     text-align: center;
     font-size: 37px;
-    background: linear-gradient(to left, rgb(27, 29, 39), rgb(0, 28, 61));
+    background: linear-gradient(to left, rgb(36, 26, 27), rgb(2, 26, 22));
     margin-top: 5%;
     margin-bottom: 7%;
     padding-top: 3%;

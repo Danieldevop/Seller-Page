@@ -160,7 +160,6 @@ transform: scale(1.1);
   align-items: center;
   margin: 1% 5%;
   border-radius: 5px;
-  background: ;
   background: linear-gradient(to left, rgb(199, 147, 4), rgb(224, 203, 45));
 }
 .c3 {
@@ -326,3 +325,131 @@ footer{
   -webkit-animation-name: fadeInUp;
 }
 /* ANIMATIONS */
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 1161px) {
+  .header {
+    font-size: 20px;
+  }
+  .headerBackground {
+    background-size: cover;
+  }
+  .icon img {
+    margin-right: 8%;
+  }
+  .cvtc {
+    font-size: 50px;
+  }
+  .videoicon {
+    width: 6%;
+    height: 6%;
+  }
+  .p1 {
+    font-size: 40px;
+  }
+  .testimonials p {
+    font-size: 40px;
+  }
+  .inspiration {
+    font-size: 30px;
+  }
+  .contact h3 {
+    font-size: 40px;
+  }
+  .btn {
+    font-size: 18px;
+  }
+  .seller {
+    font-size: 20px;
+  }
+  .linneg {
+    font-size: 30px;
+  }
+  .seller img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+  .c6 {
+    width: 60%;
+  }
+  .c5 h2 {
+    font-size: 40px;
+  }
+  .c1, .c3, .c5{
+    margin: 0 150px;
+    margin-bottom: 1%;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .head1 {
+    font-size: 16px;
+  }
+  .headerBackground {
+    background-size: cover;
+  }
+  .icon img {
+    width: 30%;
+    margin-right: 5%;
+  }
+  .contactamefont {
+    font-size: 13px;
+  }
+  .cvtc {
+    font-size: 35px;
+  }
+  .learnvideo {
+    font-size: 25px;
+  }
+  .videoicon {
+    width: 4%;
+    height: 4%;
+  }
+  .p1 {
+    font-size: 30px;
+  }
+  .testimonials p {
+    font-size: 30px;
+  }
+  .inspiration {
+    font-size: 20px;
+  }
+  .contact h3 {
+    font-size: 30px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+  .seller {
+    font-size: 18px;
+  }
+  .linneg {
+    font-size: 25px;
+  }
+  .seller img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+  .c6 {
+    width: 55%;
+  }
+  .c5 h2 {
+    font-size: 25px;
+  }
+  .c1, .c3, .c5{
+    margin: 0 130px;
+    margin-bottom: 1%;
+  }
+  .bars {
+    width: 35%;
+  }
+}
+
+
+/* RESPONSIVE DESIGN */
+

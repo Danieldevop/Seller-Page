@@ -1,5 +1,6 @@
 body {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: 'Asap', sans-serif;
 	margin: 0;
 }
 /* Inicio Header */
@@ -8,7 +9,7 @@ body {
   background-image: url("images/hola.png");
 	background-size: cover;
   box-shadow: 0px 3px 15px #B8C4C6;
-  padding-bottom: 13%;
+  padding-bottom: 15%;
   padding-top: 9%;
 }
 header {
@@ -157,7 +158,10 @@ transform: scale(1.1);
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: white;
+  margin: 1% 5%;
+  border-radius: 5px;
+  background: ;
+  background: linear-gradient(to left, rgb(199, 147, 4), rgb(224, 203, 45));
 }
 .c3 {
   color: rgb(34, 35, 38);
@@ -167,12 +171,12 @@ transform: scale(1.1);
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 4%;
+  margin: 0 3%;
   border-radius: 3px;
   background: linear-gradient(to left, rgb(36, 26, 27), rgb(2, 26, 22));
 }
 .c3 h2 {
-  color: rgb(240, 183, 51);
+  color: rgb(255, 255, 255);
 }
 .c5 h2 {
   color: #FF3395;
@@ -182,6 +186,7 @@ transform: scale(1.1);
   margin: 30px 0 5px 0;
   border-radius: 5px;
 }
+
 /* LINEAS DE NEGOCIO */
 
 /* TESTIMONIALS */

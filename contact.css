@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Asap', sans-serif;
     margin: 0;
   }
   /* Inicio Header */
@@ -137,3 +137,22 @@ body {
     -webkit-animation-name: fadeInUp;
   }
 /* ANIMATIONS */
+
+/* SOBRE MI */
+.photo img {
+    border-radius: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.photo {
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+.article p {
+    text-align: center;
+    font-size: 20px;
+    margin: 0 400px;
+}
+
+
+/* SOBRE MI */

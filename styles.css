@@ -534,7 +534,7 @@ footer{
     font-size: 30px;
   }
   .testimonials .imgtes {
-    width: 63%;
+    width: 70%;
     border: 4px solid #2C9CEF;
   }
   .inspiration {
@@ -617,5 +617,10 @@ footer{
 }
 /* SOBRE MI */
 }
+@media screen and (max-width: 700px) {
+
+}
+
+
 /* RESPONSIVE DESIGN */
 

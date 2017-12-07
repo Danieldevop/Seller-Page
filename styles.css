@@ -457,7 +457,43 @@ footer{
     margin: 0 150px;
     margin-bottom: 1%;
   }
+  /* contáctame */
+  .section h2 {
+    font-size: 30px;
+  }
+  .section a {
+    font-size: 25px;
+  }
+  .facebook {
+    margin: 0 300px;
+    margin-top: 9%;
+  }
+  .instagram {
+    margin: 0 300px;
+  }
+  .whatsapp {
+    margin: 0 300px;
+    margin-bottom: 1%;
+  }
+  /* contáctame */
 
+  /* SOBRE MI */
+.photo img {
+  border-radius: 300px;
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+}
+.photo {
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+.article p {
+  text-align: center;
+  font-size: 17px;
+  margin: 0 300px;
+}
+/* SOBRE MI */
 }
 
 @media screen and (max-width: 1024px) {
@@ -541,8 +577,45 @@ footer{
   .contact_us input{
     font-size: 14px;
   }
+  /* contáctame */
+  .section h2 {
+    font-size: 20px;
+  }
+  .section a {
+    font-size: 18px;
+  }
+  .facebook {
+    margin: 0 150px;
+    margin-top: 11%;
+  }
+  .instagram {
+    margin: 0 150px;
+  }
+  .whatsapp {
+    margin: 0 150px;
+  }
+  .whatsapp img {
+    width: 10%;
+  }
+  /* contáctame */
+
+   /* SOBRE MI */
+.photo img {
+  border-radius: 300px;
+  display: block;
+  margin: 0 auto;
+  width: 25%;
 }
-
-
+.photo {
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+.article p {
+  text-align: center;
+  font-size: 17px;
+  margin: 0 100px;
+}
+/* SOBRE MI */
+}
 /* RESPONSIVE DESIGN */
 
